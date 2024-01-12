@@ -8,7 +8,7 @@ select opt in "${menu[@]}"
 do
     case $opt in
         "Your name")
-            echo "Anastasios Kosmidis" | cowsay;;
+            echo "your name" | cowsay;;
         "Random number")
            echo "echo $((1 + $RANDOM % 1000))";;
         "Quit")
